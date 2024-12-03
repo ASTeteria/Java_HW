@@ -3,12 +3,12 @@ package resolves.hw1;
 public class Dog {
     private String name;
     private int age;
-    private String breed;
+    private String poroda;
 
-    public Dog(String name, int age, String breed) {
+    public Dog(String name, int age, String poroda) {
         this.name = name;
         this.age = age;
-        this.breed = breed;
+        this.poroda = poroda;
     }
 
     public String getName() {
@@ -27,12 +27,12 @@ public class Dog {
         this.age = age;
     }
 
-    public String getBreed() {
-        return breed;
+    public String getPoroda() {
+        return poroda;
     }
 
-    public void setBreed(String breed) {
-        this.breed = breed;
+    public void setPoroda(String poroda) {
+        this.poroda = poroda;
     }
 
     @Override
@@ -40,7 +40,7 @@ public class Dog {
         return "Dog{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
-                ", breed='" + breed + '\'' +
+                ", breed='" + poroda + '\'' +
                 '}';
     }
 }
