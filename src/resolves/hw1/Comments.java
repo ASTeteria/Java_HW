@@ -7,7 +7,7 @@ public class Comments {
     private String email;
     private String body;
 
-    // Constructor
+
     public Comments(int postId, int id, String name, String email, String body) {
         this.postId = postId;
         this.id = id;
@@ -16,7 +16,6 @@ public class Comments {
         this.body = body;
     }
 
-    // Getters and Setters
     public int getPostId() {
         return postId;
     }
