@@ -2,7 +2,7 @@ package HW4_4;
 
 public class Main {
     public static void main(String[] args) {
-        // Зоокдуб
+        // Зооклуб
         ZooClub zooClub = new ZooClub();
 
         // Учасники
@@ -33,7 +33,7 @@ public class Main {
 
         zooClub.printZooClub();
 
-        // УВидаляю тварину у Васі
+        // Видаляю тварину у Васі
         zooClub.removePetFromOwner(vasya, dog1);
 
         zooClub.printZooClub();

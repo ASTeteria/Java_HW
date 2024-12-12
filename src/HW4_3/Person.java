@@ -4,24 +4,18 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Set;
+import java.util.List;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Person implements Comparable<Person> {
+public class Person {
     private int id;
     private String name;
     private String surname;
     private String email;
     private int age;
     private Gender gender;
-    private Set<Skill> skills;
+    private List<Skill> skills;
     private Car car;
-
-    @Override
-    public int compareTo(Person o) {
-        return Integer.compare(this.skills.size(), o.skills.size());
-    }
 }
-

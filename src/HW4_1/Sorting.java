@@ -6,11 +6,11 @@ public class Sorting {
     public static void main(String[] args) {
 
         List<User> users = new ArrayList<>();
-        users.add(new User("Alice", 30));
-        users.add(new User("Bob", 25));
-        users.add(new User("Charlie", 35));
-        users.add(new User("David", 20));
-        users.add(new User("Eve", 30));
+        users.add(new User("Valentina", 30));
+        users.add(new User("Oleg", 25));
+        users.add(new User("Vasya", 35));
+        users.add(new User("Petya", 20));
+        users.add(new User("Olga", 30));
 
 
         users.sort(Comparator.comparingInt(User::getAge));
